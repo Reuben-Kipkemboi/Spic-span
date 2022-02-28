@@ -1,17 +1,50 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-nav{
     background-color: rgb(10, 25, 47);
+}
+
+nav {
+    margin: 2% 0 3% 3%;
     color: rgb(107, 244, 218);
 }
-ul li{
+
+ul li {
     display: inline;
     padding: 3.0rem;
     font-size: 3vh;
     text-align: center;
     font-weight: bold;
+}
 
+.slogan {
+    margin: 3% 3% 0 3%;
+    background-image: url('https://images.unsplash.com/photo-1533035353720-f1c6a75cd8ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+}
+
+.slogan p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 5vh;
+    color: white;
+}
+
+.slogan p span {
+    color: rgb(107, 244, 218);
+    font-style: italic;
+}
+main{
+    background-color: rgb(10, 25, 47);
+}
+main h3{
+    color: white;
+    line-height: 2.0;
+    text-align: center;
+}
+main ol li{
+    font-size: 2.5vh;
+    line-height: 1.8;
+    text-align: center;
+    color: rgb(107, 244, 218);
 }
