@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgb(10, 25, 47);
+    color: rgb(107, 244, 218);
+}
+ul li{
+    display: inline;
+    padding: 3.0rem;
+    font-size: 3vh;
+    text-align: center;
+    font-weight: bold;
+
+}
