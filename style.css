@@ -48,3 +48,32 @@ main ol li{
     text-align: center;
     color: rgb(107, 244, 218);
 }
+section{
+    margin-top: 5%;
+}
+section h3{
+    font-size: 4vh;
+    color: rgb(107, 244, 218);
+    text-align: center;
+    margin-bottom: 2%;
+    text-decoration: underline;
+}
+.work{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.work img{
+    width: 30%;
+    border: 1px solid rgb(107, 244, 218);
+    object-fit: cover;
+}
+footer{
+    margin-top: 3%;
+}
+footer .location{
+    color: rgb(107, 244, 218);
+    text-align: center;
+    font-size: 3vh;
+}
